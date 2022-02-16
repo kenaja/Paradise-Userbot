@@ -3,7 +3,7 @@ FROM biansepang/weebproject:buster
 #
 # Iky
 #
-RUN git clone -b Paradise-Userbot https://github.com/Rzky3016/Paradise-Userbot /root/userbot
+RUN git clone -b Paradise-Userbot https://github.com/kenaja/Paradise-Userbot /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
